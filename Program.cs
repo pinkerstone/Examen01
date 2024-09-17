@@ -85,8 +85,9 @@ void MenuOpciones()
                 }
             default:
                 {
+                    Console.WriteLine("Opción inválida");
+                    Console.ReadKey();
                     break;
-                    Console.WriteLine("Opcion inválida");
                 }
         }
     }
